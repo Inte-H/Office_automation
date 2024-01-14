@@ -81,7 +81,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('start-maximized')
 driver = webdriver.Chrome(
     'C:/Users/NAH01080005/Downloads/chromedriver.exe', options=options)
-driver.get('http://www.happynarae.com/havis_ep2/ep_login.jsp')
+driver.get('link')
 driver.implicitly_wait(10)
 driver.find_element_by_id('inp_id').send_keys('')
 driver.find_element_by_id('inp_pw').send_keys('')
